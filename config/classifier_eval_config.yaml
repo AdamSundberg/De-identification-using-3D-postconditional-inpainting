@@ -1,0 +1,5 @@
+batch_size: 20
+model_path: ?
+dataset:
+  faces_root_dir: ?
+

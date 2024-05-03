@@ -1,0 +1,8 @@
+epochs: 15
+batch_size: 10
+model:
+  learning_rate: 0.001 
+dataset:
+  faces_root_dir: ?
+  no_faces_root_dir: ?
+

@@ -1,0 +1,29 @@
+epochs: 100
+model:
+  batch_size: 2
+  learning_rate: 3e-4
+  embedding_dim: 256
+  number_of_codes: 2048
+  number_of_hiddens: 240
+  downsample: [4, 4, 4]
+  norm_type: group
+  padding_type: replicate
+  num_groups: 32
+  no_random_restart: False
+  restart_threshold: 1.0
+  discriminator:
+    channels: 64
+    layers: 3
+    loss_type: hinge
+    iter_start: 50000
+  weights:
+    l1: 4.0
+    gan_feat: 0.0
+    image_gan: 1.0
+    video_gan: 1.0
+    perceptual: 0.0
+dataset:
+  root_dir: ?
+  image_channels: 1
+  
+
