@@ -29,6 +29,7 @@ one for each 10:th epoch.
 - Run the python script `latent-diffusion-model/generate_samples.py`
 
 For this, the data structure has to follow:
+```
 .
 └── root_dir/
     ├── original/
@@ -43,3 +44,4 @@ For this, the data structure has to follow:
         │   └── ... MASK FILES
         └── defaced/
             └── ... DEFACED FILES
+```
